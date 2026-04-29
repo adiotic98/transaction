@@ -4,3 +4,7 @@
 1	what are the tools available  to index tripples from ontology manager like semaphore 
 2	what are the tools available  to index tripples in neo4j  from ontology manager like semaphore 
 3	how o index elastic data into neo4j db ? What are the tools are available to integrate elastic data with neo4j db 
+
+ToolNotes
+GraphDB (Ontotext)
+Engineered by Ontotext, GraphDB is a leading semantic graph database optimized for storing and managing ontologies using RDF, SPARQL, and OWL. Kyvos InsightsStardogWith support for OWL, Stardog can perform logical inferences, automatically deducing new information from existing data based on defined ontologies. Kyvos InsightsApache JenaA programming environment, reasoner, and triple store directly usable from Java — supports RDF/S and OWL reasoning. W3CAmazon NeptuneA triple store backend for enterprise knowledge graphs, configurable for RDF, offering query endpoints, APIs, and SDKs for application access. SuperblocksOpenLink VirtuosoA high-performance hybrid RDF/relational store with a SPARQL endpoint, widely used for large-scale linked data.AllegroGraphA high-performance, persistent RDF store with graph DBMS support; supports queries through SPARQL, Prolog, and JavaScript. Linkurious

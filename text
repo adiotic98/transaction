@@ -41,5 +41,11 @@ SPARQL Update / LOAD into any SPARQL 1.1–compliant store (GraphDB, Stardog, Vi
 REST APIs — most triplestores accept bulk RDF uploads via HTTP
 ETL pipelines using tools like Apache NiFi, Talend, or RML Mapper for automated triple extraction and loading
 AllegroGraph has a native Semaphore connector documented on their platform
+Ontology Editors / Authoring Tools (with export/indexing hooks)
+These let you author and export triples in formats Semaphore can produce (Turtle, N-Triples, RDF/XML):
+
+Protégé (Stanford) — Widely used for creating, editing, and managing RDF ontologies, frequently used alongside GraphDB and Stardog. Kyvos Insights
+TopBraid EDG (TopQuadrant) — Supports SKOS, RDF ontology standards, and imports/exports in CSV, XML (RDF SKOS, Turtle, N-Triple), and SQL databases. Hedden-information
+VocBench — A web-based collaborative platform for managing OWL ontologies, SKOS vocabularies, and thesauri with validation and history support.
 
 

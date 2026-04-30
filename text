@@ -12,3 +12,11 @@ Apache Jena- A programming environment, reasoner, and triple store directly usab
 Amazon Neptune-A triple store backend for enterprise knowledge graphs, configurable for RDF, offering query endpoints, APIs, and SDKs for application access.
 OpenLink VirtuosoA high-performance hybrid RDF/relational store with a SPARQL endpoint, widely used for large-scale linked data.
 AllegroGraphA high-performance, persistent RDF store with graph DBMS support; supports queries through SPARQL, Prolog, and JavaScript
+
+ 2. Ontology / Triple Ingestion & Transformation Tools
+These help convert, map, or pipe triples into a triplestore:
+
+SemTK (Semantics Toolkit) — An open-source toolkit that allows users to convert CSV data into RDF triples and ingest them into a triple store, and also provides REST APIs for all functionality including data ingestion and queries. arxiv
+Ontop / Ontopic Studio — Supports reasoning, RDF generation, SPARQL endpoints, and RDB-to-RDF conversion, directly usable from Java. W3C
+J2RM — A tool to process mappings from JSON data to RDF triples guided by an OWL2 ontology structure. GitHub
+ROBOT — A widely used ontology processing tool that can generate diffs, transform, and export ontology content in OWL/OBO formats for downstream ingestion.
